@@ -24,6 +24,8 @@ class Dapperdox < Formula
 
   test do
     assert (bin/"dapperdox").exist?
+    assert (pkgshare/"assets").exist?
+    assert (pkgshare/"examples").exist?
   end
 end
 
